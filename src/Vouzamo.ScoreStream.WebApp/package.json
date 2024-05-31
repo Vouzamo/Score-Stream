@@ -1,0 +1,23 @@
+{
+  "name": "vouzamo.scorestream.webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "npx tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css",
+    "build": "npm run css:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vouzamo/Score-Stream.git"
+  },
+  "author": "John Askew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vouzamo/Score-Stream/issues"
+  },
+  "homepage": "https://github.com/Vouzamo/Score-Stream#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
